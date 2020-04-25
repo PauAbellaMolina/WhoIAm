@@ -1,0 +1,55 @@
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Source Code Pro', monospace;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+	margin: 0 0 0 0;
+}
+
+#languages {
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	right: 1em;
+	width: 5em;
+	font-size: 2vh;
+	text-align: center;
+}
+
+#languages span {
+	cursor: pointer;
+}
+
+.var {
+	color: #2c0ef9;
+}
+
+.value {
+	color: #D91338;
+}
+
+#main {
+	font-size: 2.5vw;
+}
+a img {
+	height: 4vw;
+	vertical-align: bottom;
+}
+
+@media screen and (min-width:961px) {
+	#main {
+		font-size: 2.5vh;
+	}
+	a img {
+		vertical-align: top;
+		height: 3vh;
+  	}
+}
