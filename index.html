@@ -6,6 +6,8 @@
 		<title>Pau Abella</title>
 		<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet"> 
 		<link rel="stylesheet" href="css/style.css">
+		<link href="https://unpkg.com/webkul-micron@1.1.6/dist/css/micron.min.css" type="text/css" rel="stylesheet">
+		<script src="https://unpkg.com/webkul-micron@1.1.6/dist/script/micron.min.js" type="text/javascript"></script>
 	</head>
 	<body>
 		<div id="languages">
@@ -17,7 +19,7 @@
 			<span class="var">var</span> <b>Pau Abella 🧑</b> = { <br>
 			&emsp;title: <span class="value">"Software Developer&thinsp;(WIP)"</span>,<br>
 			&emsp;age: <span class="value">"<span id="years"></span> years <span id="months"></span> months <span id="days"></span> days"</span>,<br>
-			&emsp;contact: <span class="value">"pauabellamolina1@gmail.com"</span>,<br>
+			&emsp;contact: <span class="value">"<span id="email" title="Copy Me!" data-micron="fade" onclick="copyToClipboard()">pauabellamolina1@gmail.com</span>"</span>,<br>
 			&emsp;studies: {<br>
 			&emsp;&emsp;doing: [&thinsp;<span class="value">"Web Application Development - CertHE"</span>&thinsp;],<br>
 			&emsp;&emsp;done: [&thinsp;<span class="value">"Network and Microcomputer Systems Admin. - VET"</span>&thinsp;]<br>
@@ -43,7 +45,8 @@
 			}
 		</div>
 
-		<script rel="text/javascript" src="../js/moment.min.js"></script>
-		<script rel="text/javascript" src="../js/age.js"></script>
+		<script rel="text/javascript" src="js/moment.min.js"></script>
+		<script rel="text/javascript" src="js/age.js"></script>
+		<script rel="text/javascript" src="js/copyToClipboard.js"></script>
 	</body>
 </html>

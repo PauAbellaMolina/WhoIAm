@@ -6,6 +6,8 @@
 		<title>Pau Abella</title>
 		<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet"> 
 		<link rel="stylesheet" href="../css/style.css">
+		<link href="https://unpkg.com/webkul-micron@1.1.6/dist/css/micron.min.css" type="text/css" rel="stylesheet">
+		<script src="https://unpkg.com/webkul-micron@1.1.6/dist/script/micron.min.js" type="text/javascript"></script>
 	</head>
 	<body>
 		<div id="languages">
@@ -17,7 +19,7 @@
 			<span class="var">var</span> <b>Pau Abella 🧑</b> = { <br>
 			&emsp;titulo: <span class="value">"Desarrollador de Software&thinsp;(WIP)"</span>,<br>
 			&emsp;edad: <span class="value">"<span id="years"></span> años <span id="months"></span> meses <span id="days"></span> días"</span>,<br>
-			&emsp;contacto: <span class="value">"pauabellamolina1@gmail.com"</span>,<br>
+			&emsp;contacto: <span class="value">"<span id="email" title="Cópiame!" data-micron="fade" onclick="copyToClipboard()">pauabellamolina1@gmail.com</span>"</span>,<br>
 			&emsp;estudios: {<br>
 			&emsp;&emsp;cursando: [&thinsp;<span class="value">"Desarollo de Aplicaciones Web - CFGS"</span>&thinsp;],<br>
 			&emsp;&emsp;cursado: [&thinsp;<span class="value">"Adm. de Sistemas Microinformáticos y Redes - CFGM"</span>&thinsp;]<br>
@@ -45,5 +47,6 @@
 
 		<script rel="text/javascript" src="../js/moment.min.js"></script>
 		<script rel="text/javascript" src="../js/age.js"></script>
+		<script rel="text/javascript" src="../js/copyToClipboard.js"></script>
 	</body>
 </html>

@@ -1,17 +1,17 @@
-years = document.getElementById("years");
-months = document.getElementById("months");
-days = document.getElementById("days");
+years = document.getElementById('years');
+months = document.getElementById('months');
+days = document.getElementById('days');
 
-var today = moment(); 
-var birthDate = moment("2001-12-03");  // 2000 (year), 12 (month), 31 (day)
+let today = moment(); 
+let birthDate = moment('2001-12-03');
 
-var yearsDiff = today.diff(birthDate, 'years');
+let yearsDiff = today.diff(birthDate, 'years');
 birthDate.add(yearsDiff, 'years');
 
-var monthsDiff = today.diff(birthDate, 'months');
+let monthsDiff = today.diff(birthDate, 'months');
 birthDate.add(monthsDiff, 'months');
 
-var daysDiff = today.diff(birthDate, 'days');
+let daysDiff = today.diff(birthDate, 'days');
 
 years.innerHTML = yearsDiff;
 months.innerHTML = monthsDiff;

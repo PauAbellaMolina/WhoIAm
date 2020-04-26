@@ -39,9 +39,20 @@ body {
 #main {
 	font-size: 2.5vw;
 }
+
 a img {
 	height: 4vw;
 	vertical-align: bottom;
+}
+
+#email {
+	cursor: pointer;
+}
+#email:active {
+	cursor: grabbing;
+}
+#email:hover {
+	font-style: italic;
 }
 
 @media screen and (min-width:961px) {
