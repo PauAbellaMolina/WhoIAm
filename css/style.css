@@ -1,5 +1,9 @@
 html {
 	height: 100%;
+	cursor: url('../img/cursors/customCursorDark.png') 10 5, auto;
+}
+html:active {
+	cursor: url('../img/cursors/customCursorLight.png') 8.5 4, auto;
 }
 
 body {
@@ -24,9 +28,9 @@ body {
 	text-align: center;
 }
 
-#languages span {
+/* #languages span {
 	cursor: pointer;
-}
+} */
 
 .var {
 	color: #2c0ef9;
@@ -45,12 +49,12 @@ a img {
 	vertical-align: bottom;
 }
 
-#email {
+/* #email {
 	cursor: pointer;
 }
 #email:active {
 	cursor: grabbing;
-}
+} */
 #email:hover {
 	font-style: italic;
 }
