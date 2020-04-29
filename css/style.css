@@ -6,6 +6,11 @@ html:active {
 	cursor: url('../img/cursors/customCursorLight.png') 8.5 3.5, auto;
 }
 
+::selection {
+	color: #7DEFF7;
+	background: #7929E2;
+}
+
 body {
 	font-family: 'Source Code Pro', monospace;
 	display: flex;
