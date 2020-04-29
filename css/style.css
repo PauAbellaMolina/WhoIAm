@@ -3,7 +3,7 @@ html {
 	cursor: url('../img/cursors/customCursorDark.png') 10 5, auto;
 }
 html:active {
-	cursor: url('../img/cursors/customCursorLight.png') 8.5 4, auto;
+	cursor: url('../img/cursors/customCursorLight.png') 8.5 3.5, auto;
 }
 
 body {
@@ -28,10 +28,6 @@ body {
 	text-align: center;
 }
 
-/* #languages span {
-	cursor: pointer;
-} */
-
 .var {
 	color: #2c0ef9;
 }
@@ -47,14 +43,12 @@ body {
 a img {
 	height: 4vw;
 	vertical-align: bottom;
+	cursor: url('../img/cursors/customCursorDark.png') 10 5, auto;
+}
+a img:active {
+	cursor: url('../img/cursors/customCursorLight.png') 8.5 3.5, auto;
 }
 
-/* #email {
-	cursor: pointer;
-}
-#email:active {
-	cursor: grabbing;
-} */
 #email:hover {
 	font-style: italic;
 }
