@@ -33,6 +33,14 @@ body {
 	text-align: center;
 }
 
+#goBack {
+	position: fixed;
+	top: 0.3em;
+	left: 1em;
+	font-size: 2vh;
+	text-align: center;
+}
+
 .var {
 	color: #2c0ef9;
 }
@@ -54,7 +62,7 @@ a img:active {
 	cursor: url('../img/cursors/customCursorLight.png') 8.5 3.5, auto;
 }
 
-#email:hover {
+#email:hover, #projects:hover {
 	font-style: italic;
 }
 
