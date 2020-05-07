@@ -11,60 +11,72 @@ html:active {
 	background: #7929E2;
 }
 
-body {
-	font-family: 'Source Code Pro', monospace;
-	display: flex;
-	flex-flow: column;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-	width: 100vw;
-	margin: 0 0 0 0;
-}
+	body {
+		font-family: 'Source Code Pro', monospace;
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		width: 100vw;
+		margin: 0 0 0 0;
+	}
+	
+		#languages {
+			display: flex;
+			justify-content: space-between;
+			position: fixed;
+			top: 0;
+			right: 1em;
+			width: 5em;
+			font-size: 2vh;
+			text-align: center;
+		}
 
-#languages {
-	display: flex;
-	justify-content: space-between;
-	position: fixed;
-	top: 0;
-	right: 1em;
-	width: 5em;
-	font-size: 2vh;
-	text-align: center;
-}
+		#main {
+			font-size: 2.5vw;
+		}
 
-#goBack {
-	position: fixed;
-	top: 0.3em;
-	left: 1em;
-	font-size: 2vh;
-	text-align: center;
-}
+			#descriptionContainer {
+				display: flex;
+			}
 
-.var {
-	color: #2c0ef9;
-}
+			#description {
+				max-width: 25em;
+			}
 
-.value {
-	color: #D91338;
-}
+			#goBack {
+				position: fixed;
+				top: 0.3em;
+				left: 1em;
+				font-size: 2vh;
+				text-align: center;
+			}
 
-#main {
-	font-size: 2.5vw;
-}
+			.var {
+				color: #2c0ef9;
+			}
+			.value {
+				color: #D91338;
+			}
 
-a img {
-	height: 4vw;
-	vertical-align: bottom;
-	cursor: url('../img/cursors/customCursorDark.png') 10 5, auto;
-}
-a img:active {
-	cursor: url('../img/cursors/customCursorLight.png') 8.5 3.5, auto;
-}
+			.bClr {
+				color: black;
+			}
 
-#email:hover, #projects:hover {
-	font-style: italic;
-}
+			a img {
+				height: 4vw;
+				vertical-align: bottom;
+				cursor: url('../img/cursors/customCursorDark.png') 10 5, auto;
+			}
+			a img:active {
+				cursor: url('../img/cursors/customCursorLight.png') 8.5 3.5, auto;
+			}
+
+			#email:hover, #projects:hover {
+				font-style: italic;
+			}
+
 
 @media screen and (min-width:961px) {
 	#main {
