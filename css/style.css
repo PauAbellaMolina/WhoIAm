@@ -73,7 +73,7 @@ html:active {
 				cursor: url('../img/cursors/customCursorLight.png') 8.5 3.5, auto;
 			}
 
-			#email:hover, #projects:hover {
+			.link:hover {
 				font-style: italic;
 			}
 
